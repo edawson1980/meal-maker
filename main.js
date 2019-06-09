@@ -4,6 +4,7 @@ const menu = {
     mains: [],
     desserts: []
   },
+  get courses(){},
   get appetizers(){},
   set appetizers(appIn){},
   get mains(){},
