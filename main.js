@@ -52,3 +52,16 @@ const menu = {
 };
 // menu.addDishToCourse('appetizers', 'mozz sticks', 4.50);
 // console.log(menu.appetizers);
+/*some test data and a test condition*/
+menu.addDishToCourse('appetizers', 'fries', 2.50);
+menu.addDishToCourse('appetizers', 'mushroom caps', 4.00);
+menu.addDishToCourse('appetizers', 'jalapenos', 6.37);
+menu.addDishToCourse('mains', 'steak', 13.00);
+menu.addDishToCourse('mains', 'chicken', 11.00);
+menu.addDishToCourse('mains', 'fish', 12.00);
+menu.addDishToCourse('desserts', 'ice cream', 4.00);
+menu.addDishToCourse('desserts', 'cookies', 3.75);
+menu.addDishToCourse('desserts', 'fruit', 2.25);
+
+let meal = menu.generateRandomMeal();
+console.log(meal);
