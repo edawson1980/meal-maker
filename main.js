@@ -21,7 +21,7 @@ const menu = {
     let appetizer = this.getRandomDishFromCourse('appetizers');
     let main = this.getRandomDishFromCourse('mains');
     let dessert = this.getRandomDishFromCourse('desserts');
-    return `Your meal is: ${appetizers.name}, ${mains.name}, ${desserts.name}.  The total cost is: $${appetizers.price + mains.price + desserts.price}.`
+    return `Your meal is: ${appetizer.name}, ${main.name}, ${dessert.name}.  The total cost is: $${appetizer.price + main.price + dessert.price}.`
   },
   get courses(){
     //this method returns an object that contains the key:value pairs for apps, mains, and desserts
